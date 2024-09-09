@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "Roboto";
+	src: url('./Roboto-Regular.ttf') format('truetype');
+}
+
+#title {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+
+.text {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+
+.button-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0;
+	margin-top: 15%;
+}
+
+.button {
+	background-color: rgb(8, 122, 122);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 8px;
+	transition: background-color 0.3s;
+	font-family: "Roboto", sans-serif;
+}
+
+.button:hover {
+	background-color: rgb(4, 54, 54);
+}
+
+body {
+	background-image: url('./background.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 100vh;
+}

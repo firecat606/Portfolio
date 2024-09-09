@@ -7,7 +7,7 @@ function showProjects() {
 }
 
 function goHome() {
-	window.location.href = "./MainMenu.html";
+	window.location.href = "./index.html";
 }
 
 document.addEventListener('DOMContentLoaded', () => {
